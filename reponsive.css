@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    .container {
+        grid-column: span 12;
+    }
+    .clock-box,
+    .clock {
+        grid-column: 2 /12;
+    }
+    .infor__me-img {
+        width: 120px;
+        height: 120px;
+    }
+    .infor__me,
+    .infor__honey {
+        grid-column: span 12;
+    }
+    .infor__daylove {
+        grid-column: span 12;
+        padding-bottom: 1rem;
+    }
+    footer {
+        font-size: 1.2rem;
+        margin: 0;
+        padding-bottom: 2rem;
+        grid-column: span 12;
+    }
+}
