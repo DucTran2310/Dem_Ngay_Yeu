@@ -29,4 +29,10 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(showTime, 1000);
 
     document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
+
+    // Thêm vào sau những phần tử cuối 
+    document.getElementsByTagName("body")[0].insertAdjacentHTML(
+        "beforeend",
+        "<div id='mask'></div>"
+    );
 })
